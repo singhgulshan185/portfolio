@@ -1,0 +1,96 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: right;
+    list-style: none;
+    padding: 14px 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    /* padding: 28px; */
+    /* color: white; */
+}
+
+.portfolio {
+    float: left;
+    color: white;
+    /* padding-left: 4px; */
+    margin-top: 0px;
+    margin-left: 9px;
+    font-size: 38px;
+    padding-left: 10px;
+}
+
+#name {
+    color: transparent;
+    text-shadow: 3px 0px 2px white;
+
+}
+
+#name:hover {
+    /* color: transparent; */
+    text-shadow: 3px 0px 0px white;
+    font-size: 40px;
+}
+
+.Details {
+    margin-top: 16%;
+    margin-left: 4%;
+}
+
+.desination {
+    margin-top: 0%;
+    margin-left: -2%;
+    color: transparent;
+    text-shadow: 3px 0px 2px white;
+    font-size: 60;
+}
+
+.desination:hover {
+    text-shadow: 3px 0px 0px white;
+    font-size: 40px;
+}
+
+.info {
+    margin-top: 4%;
+    margin-right: 0%;
+    color: white;
+    font-size: 20px;
+}
+
+body {
+    background-image: url(background.jpeg);
+    background-size: contain;
+
+
+}
+
+
+.link li a {
+    float: right;
+    list-style: none;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.link li {
+    float: left;
+    list-style: none;
+    padding: 14px 20px;
+}
